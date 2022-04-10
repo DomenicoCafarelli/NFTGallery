@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C040A9752802C74E00026D2E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9742802C74E00026D2E /* DiscoverView.swift */; };
+		C040A9772802C76B00026D2E /* PersonalGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9762802C76B00026D2E /* PersonalGalleryView.swift */; };
+		C040A9792802C77800026D2E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9782802C77800026D2E /* LogInView.swift */; };
+		C040A97B2802C78C00026D2E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A97A2802C78C00026D2E /* SettingsView.swift */; };
+		C040A97D2802C7CF00026D2E /* SelectedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A97C2802C7CF00026D2E /* SelectedCollection.swift */; };
 		C07965E827F5F301001A252B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07965E727F5F301001A252B /* AppDelegate.swift */; };
 		C07965EA27F5F301001A252B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07965E927F5F301001A252B /* ContentView.swift */; };
 		C07965EC27F5F301001A252B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C07965EB27F5F301001A252B /* Experience.rcproject */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C040A9742802C74E00026D2E /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		C040A9762802C76B00026D2E /* PersonalGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGalleryView.swift; sourceTree = "<group>"; };
+		C040A9782802C77800026D2E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		C040A97A2802C78C00026D2E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C040A97C2802C7CF00026D2E /* SelectedCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCollection.swift; sourceTree = "<group>"; };
 		C07965E427F5F301001A252B /* NFTGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07965E727F5F301001A252B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C07965E927F5F301001A252B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C040A9732802C72E00026D2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C040A9742802C74E00026D2E /* DiscoverView.swift */,
+				C040A9762802C76B00026D2E /* PersonalGalleryView.swift */,
+				C040A9782802C77800026D2E /* LogInView.swift */,
+				C040A97A2802C78C00026D2E /* SettingsView.swift */,
+				C040A97C2802C7CF00026D2E /* SelectedCollection.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C07965DB27F5F301001A252B = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +75,7 @@
 		C07965E627F5F301001A252B /* NFTGallery */ = {
 			isa = PBXGroup;
 			children = (
+				C040A9732802C72E00026D2E /* Views */,
 				C07965E727F5F301001A252B /* AppDelegate.swift */,
 				C07965E927F5F301001A252B /* ContentView.swift */,
 				C07965EB27F5F301001A252B /* Experience.rcproject */,
@@ -140,9 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C040A97D2802C7CF00026D2E /* SelectedCollection.swift in Sources */,
+				C040A97B2802C78C00026D2E /* SettingsView.swift in Sources */,
+				C040A9792802C77800026D2E /* LogInView.swift in Sources */,
 				C07965EA27F5F301001A252B /* ContentView.swift in Sources */,
 				C07965E827F5F301001A252B /* AppDelegate.swift in Sources */,
+				C040A9772802C76B00026D2E /* PersonalGalleryView.swift in Sources */,
 				C07965EC27F5F301001A252B /* Experience.rcproject in Sources */,
+				C040A9752802C74E00026D2E /* DiscoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
