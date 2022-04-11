@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C017E78428047013001FE7BB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017E78328047013001FE7BB /* Model.swift */; };
+		C017E78D28047A81001FE7BB /* ParacelsusGold.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78628047A80001FE7BB /* ParacelsusGold.usdz */; };
+		C017E78E28047A81001FE7BB /* SwanRich.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78728047A80001FE7BB /* SwanRich.usdz */; };
+		C017E78F28047A81001FE7BB /* NicolasFlameBismuth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78828047A80001FE7BB /* NicolasFlameBismuth.usdz */; };
+		C017E79028047A81001FE7BB /* ParacelsusBismuth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78928047A81001FE7BB /* ParacelsusBismuth.usdz */; };
+		C017E79128047A81001FE7BB /* ParacelsusSculpture.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78A28047A81001FE7BB /* ParacelsusSculpture.usdz */; };
+		C017E79228047A81001FE7BB /* NicolasFlameSculpture.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78B28047A81001FE7BB /* NicolasFlameSculpture.usdz */; };
+		C017E79328047A81001FE7BB /* NicolasFlameGold.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78C28047A81001FE7BB /* NicolasFlameGold.usdz */; };
 		C040A9752802C74E00026D2E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9742802C74E00026D2E /* DiscoverView.swift */; };
 		C040A9772802C76B00026D2E /* PersonalGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9762802C76B00026D2E /* PersonalGalleryView.swift */; };
 		C040A9792802C77800026D2E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9782802C77800026D2E /* LogInView.swift */; };
@@ -20,6 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C017E78328047013001FE7BB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C017E78628047A80001FE7BB /* ParacelsusGold.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ParacelsusGold.usdz; sourceTree = "<group>"; };
+		C017E78728047A80001FE7BB /* SwanRich.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SwanRich.usdz; sourceTree = "<group>"; };
+		C017E78828047A80001FE7BB /* NicolasFlameBismuth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NicolasFlameBismuth.usdz; sourceTree = "<group>"; };
+		C017E78928047A81001FE7BB /* ParacelsusBismuth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ParacelsusBismuth.usdz; sourceTree = "<group>"; };
+		C017E78A28047A81001FE7BB /* ParacelsusSculpture.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ParacelsusSculpture.usdz; sourceTree = "<group>"; };
+		C017E78B28047A81001FE7BB /* NicolasFlameSculpture.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NicolasFlameSculpture.usdz; sourceTree = "<group>"; };
+		C017E78C28047A81001FE7BB /* NicolasFlameGold.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NicolasFlameGold.usdz; sourceTree = "<group>"; };
 		C040A9742802C74E00026D2E /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		C040A9762802C76B00026D2E /* PersonalGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGalleryView.swift; sourceTree = "<group>"; };
 		C040A9782802C77800026D2E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C017E78528047A5A001FE7BB /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				C017E78828047A80001FE7BB /* NicolasFlameBismuth.usdz */,
+				C017E78C28047A81001FE7BB /* NicolasFlameGold.usdz */,
+				C017E78B28047A81001FE7BB /* NicolasFlameSculpture.usdz */,
+				C017E78928047A81001FE7BB /* ParacelsusBismuth.usdz */,
+				C017E78628047A80001FE7BB /* ParacelsusGold.usdz */,
+				C017E78A28047A81001FE7BB /* ParacelsusSculpture.usdz */,
+				C017E78728047A80001FE7BB /* SwanRich.usdz */,
+			);
+			path = 3DModels;
+			sourceTree = "<group>";
+		};
 		C040A9732802C72E00026D2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,9 +105,11 @@
 		C07965E627F5F301001A252B /* NFTGallery */ = {
 			isa = PBXGroup;
 			children = (
+				C017E78528047A5A001FE7BB /* 3DModels */,
 				C040A9732802C72E00026D2E /* Views */,
 				C07965E727F5F301001A252B /* AppDelegate.swift */,
 				C07965E927F5F301001A252B /* ContentView.swift */,
+				C017E78328047013001FE7BB /* Model.swift */,
 				C07965EB27F5F301001A252B /* Experience.rcproject */,
 				C07965ED27F5F304001A252B /* Assets.xcassets */,
 				C07965EF27F5F304001A252B /* Preview Content */,
@@ -151,8 +183,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017E79328047A81001FE7BB /* NicolasFlameGold.usdz in Resources */,
+				C017E78E28047A81001FE7BB /* SwanRich.usdz in Resources */,
 				C07965F127F5F304001A252B /* Preview Assets.xcassets in Resources */,
 				C07965EE27F5F304001A252B /* Assets.xcassets in Resources */,
+				C017E79228047A81001FE7BB /* NicolasFlameSculpture.usdz in Resources */,
+				C017E78F28047A81001FE7BB /* NicolasFlameBismuth.usdz in Resources */,
+				C017E78D28047A81001FE7BB /* ParacelsusGold.usdz in Resources */,
+				C017E79128047A81001FE7BB /* ParacelsusSculpture.usdz in Resources */,
+				C017E79028047A81001FE7BB /* ParacelsusBismuth.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017E78428047013001FE7BB /* Model.swift in Sources */,
 				C040A97D2802C7CF00026D2E /* SelectedCollection.swift in Sources */,
 				C040A97B2802C78C00026D2E /* SettingsView.swift in Sources */,
 				C040A9792802C77800026D2E /* LogInView.swift in Sources */,

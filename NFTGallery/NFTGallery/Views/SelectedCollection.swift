@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct SelectedCollection: View {
+    
+    @StateObject var NFTstore = NFTStore()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Text(NFTstore.nft[0].NFT_name)
+        
     }
 }
 
