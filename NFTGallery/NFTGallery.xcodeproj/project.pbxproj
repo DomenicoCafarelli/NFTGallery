@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D89F76B28047E5200EB38A0 /* NFTCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D89F76A28047E5200EB38A0 /* NFTCard.swift */; };
 		C017E78428047013001FE7BB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017E78328047013001FE7BB /* Model.swift */; };
 		C017E78D28047A81001FE7BB /* ParacelsusGold.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78628047A80001FE7BB /* ParacelsusGold.usdz */; };
 		C017E78E28047A81001FE7BB /* SwanRich.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78728047A80001FE7BB /* SwanRich.usdz */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D89F76A28047E5200EB38A0 /* NFTCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCard.swift; sourceTree = "<group>"; };
 		C017E78328047013001FE7BB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C017E78628047A80001FE7BB /* ParacelsusGold.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ParacelsusGold.usdz; sourceTree = "<group>"; };
 		C017E78728047A80001FE7BB /* SwanRich.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SwanRich.usdz; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				C040A9782802C77800026D2E /* LogInView.swift */,
 				C040A97A2802C78C00026D2E /* SettingsView.swift */,
 				C040A97C2802C7CF00026D2E /* SelectedCollection.swift */,
+				6D89F76A28047E5200EB38A0 /* NFTCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D89F76B28047E5200EB38A0 /* NFTCard.swift in Sources */,
 				C017E78428047013001FE7BB /* Model.swift in Sources */,
 				C040A97D2802C7CF00026D2E /* SelectedCollection.swift in Sources */,
 				C040A97B2802C78C00026D2E /* SettingsView.swift in Sources */,
@@ -339,7 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NFTGallery/Preview Content\"";
-				DEVELOPMENT_TEAM = 3SJPB5MHR5;
+				DEVELOPMENT_TEAM = 4U74CU2N6L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -370,7 +374,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NFTGallery/Preview Content\"";
-				DEVELOPMENT_TEAM = 3SJPB5MHR5;
+				DEVELOPMENT_TEAM = 4U74CU2N6L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
