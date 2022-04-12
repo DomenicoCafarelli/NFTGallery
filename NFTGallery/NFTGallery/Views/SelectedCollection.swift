@@ -25,7 +25,7 @@ struct SelectedCollection: View {
                         
                         Button {
                             ARisPresenting = true
-                            self.selectedModel = nft.NFT_3Dmodel
+                            self.selectedModel = nft.NFT_model_name
                             
                         } label: {
                             ZStack{
@@ -36,7 +36,7 @@ struct SelectedCollection: View {
                                     Text(nft.NFT_name)
                                     
                                     //                    Spacer()
-                                    Image(nft.NFT_image)
+                                    Image(nft.NFT_model_name)
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .cornerRadius(12)
