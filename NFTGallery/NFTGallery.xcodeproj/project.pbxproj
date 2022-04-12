@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D7CC9442804E3B100268968 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CC9432804E3B100268968 /* ControlView.swift */; };
 		6D89F76B28047E5200EB38A0 /* NFTCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D89F76A28047E5200EB38A0 /* NFTCard.swift */; };
 		C017E78428047013001FE7BB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017E78328047013001FE7BB /* Model.swift */; };
 		C017E78D28047A81001FE7BB /* ParacelsusGold.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C017E78628047A80001FE7BB /* ParacelsusGold.usdz */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D7CC9432804E3B100268968 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		6D89F76A28047E5200EB38A0 /* NFTCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCard.swift; sourceTree = "<group>"; };
 		C017E78328047013001FE7BB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C017E78628047A80001FE7BB /* ParacelsusGold.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ParacelsusGold.usdz; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				C040A9732802C72E00026D2E /* Views */,
 				C07965E727F5F301001A252B /* AppDelegate.swift */,
 				C07965E927F5F301001A252B /* ContentView.swift */,
+				6D7CC9432804E3B100268968 /* ControlView.swift */,
 				C017E78328047013001FE7BB /* Model.swift */,
 				C07965EB27F5F301001A252B /* Experience.rcproject */,
 				C07965ED27F5F304001A252B /* Assets.xcassets */,
@@ -207,6 +210,7 @@
 			files = (
 				6D89F76B28047E5200EB38A0 /* NFTCard.swift in Sources */,
 				C017E78428047013001FE7BB /* Model.swift in Sources */,
+				6D7CC9442804E3B100268968 /* ControlView.swift in Sources */,
 				C040A97D2802C7CF00026D2E /* SelectedCollection.swift in Sources */,
 				C040A97B2802C78C00026D2E /* SettingsView.swift in Sources */,
 				C040A9792802C77800026D2E /* LogInView.swift in Sources */,
@@ -353,6 +357,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,6 +389,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
